@@ -2,4 +2,4 @@
 desafio de projeto sobre Git Hub
 
 ## Links ùteis
-[Sintaxe  Basica Markdown[](](https://www.markdownguide.org/getting-started/)
+[Sintaxe  Basica Markdown](https://www.markdownguide.org/getting-started/)
