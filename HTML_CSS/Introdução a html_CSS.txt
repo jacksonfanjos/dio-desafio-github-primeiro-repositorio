@@ -1,0 +1,84 @@
+
+12/06/2022
+Antigamente a semantica das paginas eram realizados com DIv´s mas era confuso pois tinha que dar se
+significados com classes.
+Apartir de 2014 com html5 foram criados outros elementos que dao mas sentido
+
+<section> sessão generica de conteudo
+<header>  cabeçalho de sua pagina
+<article>  conteudo relevante
+<aside>   links relacionados, biografia (asunsuntos relacionados ao conteudo relevante geralmente e uma barra lateral
+<footer>  rodapé da pagina ou otras parate da pagina
+<h1>-<h6>  representanta a importancia de um titulo na pagina (so pode haver um  h1 por pagina
+
+<h1> Títuilo de pagina
+<h2> Titulo de Seção
+<h3> Titulo de artigo
+<p> Conteudo do artigo (paragrafo) tambem comporta imagens e links, videos
+
+
+Tags para links
+
+<a>Link</a>  (ancora)
+
+exemplos:
+<a href="likdin.com">Linkedin</a>  (href= hiper link)
+<a target="blank">Link</a> (target informa com a pagina do link sera aberta)
+
+Tag <img> não tem fechamento
+è uma tag simples
+tem apenas 2 atributos proprios src e alt
+<imgsrc="img/avatar.jpg">  obrigatorio indica o caminho aonde esta a imagem
+<img alt="Foto De Jackson"> apcionala mais recomendavel pois ajuda na acessibilidade (mostra descriçao da foto)
+
+Listas
+Serve para agrupar itens
+ <ul> unorded list (quando a ordem dos itnes não tem, importancia)
+ Ol> orded list   (quando a ordem dos itens da lista tem importancia)
+
+  Modificar marcadores de lista (list-style type)
+
+
+CSS3 Voce cria regras de esstilo para elementos ou para grupos de elementos
+
+  Seletores:
+   Uma regra CSS e formada  por um seletor ou grupo de seletores (sao elementos HTML)
+   Dentro de um par de chaves {} em frente ao seletor são colocados as declarações.
+    Declarações:São formados por uma propriedade e um valor
+ 
+
+  ID X Classe
+No CSSS 
+Uma classe e precedida por 1 ponto
+Uma ID e precedida por um #
+O ID so podec ser usado uma vez na pagina
+
+
+
+Box model cada elemnto Html de um navegador
+CSS modifica a aparencia desta caixa
+  O box model tem 4 áreas
+  
+ Margin : espaçamento entre elementos
+  Border  :circulam o paddind e o conteudo
+  Padding ; espaçamento entre o padding e o conteudo
+  Content : texto imagem ou video
+
+  Quando for dar espaçamento entre elementos escolha em deixar margem so acima ou so abaixo
+
+
+.
+      Dimensão e alinhamento:
+ width : largura
+ Height : altura
+ Max-width :largura maxima do elemento
+ Max-height altura maxima que o elemento pode ter
+ Margin : alinhamento
+ text align : serve para alinhar textos (margin auto centraliza automaticamente o elemento)
+
+
+
+
+
+
+
