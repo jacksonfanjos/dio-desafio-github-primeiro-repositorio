@@ -1,0 +1,30 @@
+.flexcontainer{
+    max-width: 500px;
+    border: 1px solid black;
+    display: flex;
+}
+.item{
+    background-color: coral;
+    color: black;
+    text-align: center;
+    margin: 5px;
+}
+.basis_auto {
+    flex-basis: auto;
+}
+.basis_0 {
+    flex-basis: 0;
+}
+.flex_grow0{
+    flex-grow: 0;
+}
+.flex_grow1{
+    flex-grow: 1;
+}
+.flex_grow2 {
+    flex-grow: 2;
+}
+.width_100{
+    flex-basis: 100px;
+}
+

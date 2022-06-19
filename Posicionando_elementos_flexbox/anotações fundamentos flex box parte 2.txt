@@ -1,0 +1,31 @@
+
+Flex grow
+	cresimento dos itens respeitando seus conteudos iternos
+	não funcianora com justify-content ao nosso flex container
+	so trtabalha com numero
+
+Flex basis:
+
+
+  flex: shrink
+	Estabelece sa capacidade de redução ou ocmpressão de um item
+ 
+	Flex
+	Atalho para as propriedades: grow, shrink e basis
+  
+ Order
+	Modifica a ordem dos itens em relação a disposicção escreita no HTML
+
+  Align-self
+     Alinhamento individual de cada item
+	O contaiser não pode ter um align item definido
+
+  Valores:
+	Auto:padrão ira respeitar a definição dos aligns itens
+	Flex start: inicio do container
+	Flex end: final do container
+	Center: relativo ao eixo
+	Stretch:ocupada todo espaço relativo
+	Baseline: ocupa o espaço baseado na tipografia
+
+      

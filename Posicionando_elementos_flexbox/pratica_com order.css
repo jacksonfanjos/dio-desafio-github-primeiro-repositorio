@@ -1,0 +1,37 @@
+.flexcontainer{
+    max-width: 300px;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 20px;
+}
+.item{
+    flex: 1;
+    background-color: green ;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+
+}
+.order1{
+    order: -1;
+
+}
+.order2{
+    order: 2;
+
+}
+.order3{
+    order: 3;
+
+}
+.order4{
+    order: 4;
+
+}.order5{
+     order: 5;
+
+ }
+ .diretion{
+     flex-direction: column;
+ }
