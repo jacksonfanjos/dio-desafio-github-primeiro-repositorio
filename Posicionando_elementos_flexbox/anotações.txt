@@ -1,0 +1,64 @@
+Atributo didplay com o valor flex cada item dentro
+do container passa a acupar omaximo do seu conteudo
+e se abrigar dentro do container respeitando
+a orientação em linha (default mas da pra modificar)
+
+Aplicação pratica : utilzar em um menu fazendo que eles
+se adaptem as telas
+
+  Como tratar a orientação horizontal dso itens para que eles não vazem do conteiner:
+   
+  Flex direction
+  	Os eixos
+  	row ( padrão leitura esquerda paraq direita) em linha
+  	row reveerse( leitura da direita para esquerda (inverte a ordem dos elementos) em linha
+  	column  (ordenação de cima prara baixo) em coluna
+ 	 colummn reverse ( ordenação os elementos de baixo para cima) em coluna
+  
+  Flex-wrap
+    
+	Define se os itenhs devem quebrar ou não a linha
+	por padrão eles não quebram linhas
+	Se tiver não wrap os itens vazão do container
+ 
+Flex flow
+	è um atalho para a propriedades fles direction flex wrap
+
+Justify Content
+	
+	Alinha os itens dentro co container de acordo com a direção pretendida e trata
+	da distribuição do espaçamento entre eles.
+ 	Variações:
+ 		flex start:inicio do container
+		flex end:final do container
+		center: cxentro do container
+		space-btween: espaçamento igual entre os elementos
+		space around: espacamento entre os elementos 2x maiores queos iniciais
+
+Align itens
+	
+	Alinhamentos dos itens conforme oeixo do container
+	O alinhamento e diferente quandos os itens estão em coluna
+	Permite o alinhamento central no eixo veritcal
+	 TIPOS DE ALINHAMENTO
+		center: alinha ao centro
+		stretch:padrão itens crescem igualmente
+		flex-start: alinhamento ao inicio
+		flex-end: alinhamento ao final
+		baseline: alinhamento baseado na tipografia dos itens
+
+Align content
+	
+	trata a orientação do eixo vertical do container
+	Para utilizar precisamos que o container utilize 
+	quebras de linha (wrap) e a altura seja maino que a soma das linha
+	Tipos de alihamento:
+		center: alinhamento ao centro
+		stretch:padrão itens crescem igualmente
+		flex-start: alinhamento no inicio
+		flex-end: alinhamento no final
+		space-betwen: espaços iguais entre os elementos e borda
+		space around: espaço entre os elementos 2 vezes maior que o espaço da borda
+		
+
+

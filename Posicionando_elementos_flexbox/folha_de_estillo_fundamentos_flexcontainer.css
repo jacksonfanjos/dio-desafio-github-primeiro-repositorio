@@ -1,0 +1,44 @@
+  /* Determina caracteristcias do container*/
+.flex_container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+
+}
+  /* Determinna caracteristicas dos itens do container*/
+.flex_item {
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    margin: 5px;
+}
+
+
+.row{
+    flex-direction: row;
+}
+.row_reverse{
+    flex-direction: row-reverse;
+}
+.row_reverse li{
+    background-color: crimson;
+}
+.column{
+    float: left;
+    flex-direction: column;
+}
+.column li{
+    background-color: greenyellow;
+}
+.column_reverse{
+    flex-direction: column-reverse;
+    float: right;
+}
+.column_reverse li {
+    background-color: powderblue;
+}

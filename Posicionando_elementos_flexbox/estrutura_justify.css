@@ -1,0 +1,36 @@
+.container{
+    max-width: 400px;
+    border: 1px solid black;
+    margin: 0;
+    display: flex;
+    margin: 10px;
+}
+.item{
+    background-color: pink;
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+/* Classes utilizadas em ajustes em linha*/
+
+.flex_start{
+    justify-content: flex-start;
+ }
+ .flex_end{
+     justify-content: end;
+ }
+ .flex_center{
+     justify-content: center;
+ }
+ .flex_around{
+     justify-content: space-around;
+ }
+ .flex_between{
+     justify-content: space-between;
+ }
+/* Classes utilizadas em ajustes em colunas*/
+
+.column{
+    flex-direction: column;
+    min-height: 200px;
+}

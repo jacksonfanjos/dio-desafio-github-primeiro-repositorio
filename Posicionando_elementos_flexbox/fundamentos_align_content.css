@@ -1,0 +1,33 @@
+.container{
+    height: 400px;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+.item{
+    background-color: powderblue;
+    padding: 0 5px;
+    flex: 1;
+    text-align: center;
+    color: black;
+    margin: 5px;
+}
+.stretch{
+    align-content: stretch;
+}
+.center{
+    align-content: center;
+}
+.flex_start{
+    align-content: flex-start;
+}
+.flex_end{
+    align-content: end;
+}
+.space_around{
+    align-content: space-around;
+}
+.space_between{
+    align-content: space-between;
+}
